@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gone Fishing", "Gone Fishing\Gone Fishing.vcxproj", "{BF78380C-E4DF-4BDF-BB30-B7C7E6890455}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF78380C-E4DF-4BDF-BB30-B7C7E6890455}.Debug|x64.ActiveCfg = Debug|x64
+		{BF78380C-E4DF-4BDF-BB30-B7C7E6890455}.Debug|x64.Build.0 = Debug|x64
+		{BF78380C-E4DF-4BDF-BB30-B7C7E6890455}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF78380C-E4DF-4BDF-BB30-B7C7E6890455}.Debug|x86.Build.0 = Debug|Win32
+		{BF78380C-E4DF-4BDF-BB30-B7C7E6890455}.Release|x64.ActiveCfg = Release|x64
+		{BF78380C-E4DF-4BDF-BB30-B7C7E6890455}.Release|x64.Build.0 = Release|x64
+		{BF78380C-E4DF-4BDF-BB30-B7C7E6890455}.Release|x86.ActiveCfg = Release|Win32
+		{BF78380C-E4DF-4BDF-BB30-B7C7E6890455}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {173C1FBB-2E9A-42FE-8FF1-3634F3846CF0}
+	EndGlobalSection
+EndGlobal

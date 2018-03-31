@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2738Real Number Addition", "2738Real Number Addition\2738Real Number Addition.vcxproj", "{C1413C03-18A9-4DFB-9418-6A6632BB7083}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1413C03-18A9-4DFB-9418-6A6632BB7083}.Debug|x64.ActiveCfg = Debug|x64
+		{C1413C03-18A9-4DFB-9418-6A6632BB7083}.Debug|x64.Build.0 = Debug|x64
+		{C1413C03-18A9-4DFB-9418-6A6632BB7083}.Debug|x86.ActiveCfg = Debug|Win32
+		{C1413C03-18A9-4DFB-9418-6A6632BB7083}.Debug|x86.Build.0 = Debug|Win32
+		{C1413C03-18A9-4DFB-9418-6A6632BB7083}.Release|x64.ActiveCfg = Release|x64
+		{C1413C03-18A9-4DFB-9418-6A6632BB7083}.Release|x64.Build.0 = Release|x64
+		{C1413C03-18A9-4DFB-9418-6A6632BB7083}.Release|x86.ActiveCfg = Release|Win32
+		{C1413C03-18A9-4DFB-9418-6A6632BB7083}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89D0F011-AF94-464D-B6E6-C076EFF9E61C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "The Castle Problem", "The Castle Problem\The Castle Problem.vcxproj", "{F28BF342-B396-4F55-91DF-E090EC0AC7FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F28BF342-B396-4F55-91DF-E090EC0AC7FB}.Debug|x64.ActiveCfg = Debug|x64
+		{F28BF342-B396-4F55-91DF-E090EC0AC7FB}.Debug|x64.Build.0 = Debug|x64
+		{F28BF342-B396-4F55-91DF-E090EC0AC7FB}.Debug|x86.ActiveCfg = Debug|Win32
+		{F28BF342-B396-4F55-91DF-E090EC0AC7FB}.Debug|x86.Build.0 = Debug|Win32
+		{F28BF342-B396-4F55-91DF-E090EC0AC7FB}.Release|x64.ActiveCfg = Release|x64
+		{F28BF342-B396-4F55-91DF-E090EC0AC7FB}.Release|x64.Build.0 = Release|x64
+		{F28BF342-B396-4F55-91DF-E090EC0AC7FB}.Release|x86.ActiveCfg = Release|Win32
+		{F28BF342-B396-4F55-91DF-E090EC0AC7FB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2E12D00-DADA-4EE8-971E-E10CD7D72D20}
+	EndGlobalSection
+EndGlobal

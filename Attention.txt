@@ -1,0 +1,87 @@
+1. 万能头文件
+#include<bits/stdc++.h>
+
+2.保留小数点后3位
+#include <iomanip>
+cout << setiosflags(ios::fixed) << setprecision(4) << x << endl;
+
+3.在vector中删除某个元素
+q.erase(q.begin() + t);
+for (vector<int>::iterator it = q.begin(); it != q.end(); )
+{
+	if (*it == i)
+		it = q.erase(it); //不能写成arr.erase(it);
+	else
+		++it;		
+}
+
+4.在vector中查找是否存在某个元素
+vector<int>::iterator result = find(q.begin(), q.end(), i);
+if (result != q.end())
+{
+	******
+}
+
+5.memset设置为-1
+memset(vis, 0xff, sizeof(vis));
+
+6.输出数组中最大的元素
+#include <algorithm>
+cout << * max_element(maxn, maxn + n) << endl;
+
+7.字符串string的查询
+
+
+8.结构体的定义与赋值
+struct ways
+{
+	int sou, des, day;
+	ways(int s, int d, int dd) : sou(s), des(d), day(dd) {};
+
+};
+
+9.数字int status转化为字符串char temp[10]
+sprintf(temp, "%09d", status);
+
+10.结构体内运算符重载
+struct node
+{
+	int des, depth;
+	friend bool operator<(const node &n, const node &n1)
+	{
+		return n.depth > n1.depth;
+	}
+	node(){}
+	node(int d, int de) :des(d), depth(de) {}
+};
+
+11.string的常用操作
+string str;
+str.find("/../") != -1;
+str.rfind('/', pos);
+str.erase(start, length);
+
+12.vector排序
+sort(vec.begin(), vec.end(), cmp);
+
+13.结构体比较大小
+bool operator<(const trading& t1) const
+	{
+		if (t == 's')
+			return price > t1.price;
+		else
+			return price < t1.price;
+	}
+
+14.大小写转换
+for (int i = 0; i < s.size(); i++)
+			s1 += tolower(s[i]);
+
+15.map的遍历输出
+map<char, int>::iterator it;
+		for (it = ori.begin(); it != ori.end(); it++)
+		{
+			cout << " -" << it->first;
+			if (it->second == 2)
+				cout << " " << st[it->first];
+		}
